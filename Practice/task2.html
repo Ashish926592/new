@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            border: 2px solid rgb(223, 23, 23);
+            display: flex;
+
+        }
+        .grid-item {
+            border: 2px solid rgb(48, 194, 40);
+            height: auto;
+            width: 90%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin-left: 66px;
+           
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        .heading {
+            border: 2px solid rgb(218, 192, 192);
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            font-size: larger;
+            
+
+
+        }
+
+        .item {
+            border: 2px solid rgb(236, 10, 10);
+            height: auto;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .same {
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        @media (max-width: 1500px) {
+            .item {
+                grid-template-columns: auto auto auto;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .item {
+                grid-template-columns: auto auto;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .item {
+                grid-template-columns: auto;
+                justify-content: space-between;
+            }
+        }
+
+        ul{
+            height: auto;
+            width: 250px;
+            border: 2px solid black;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        li{
+            border: 3px solid rgb(232, 218, 218);
+            padding: 20px;
+            color: white;
+            margin-top: 2px;
+        }
+        li:hover{
+            background-color: rgb(54, 48, 48);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <ul type="none">
+                <li>Public</li>
+                <li>View</li>
+                <li>HR</li>
+                <li>Network Details</li>
+            </ul>
+
+        </div>
+        <div class="grid-item">
+            <div class="heading" style="align-items: center;">
+                <h1>Details</h1>
+            </div>
+            <div class="item">
+                <div class="same">
+                    <span>Name:</span>abc<br>
+                    <span>Value:</span>def<br>
+                    <span>Extra:</span>xyz
+                </div>
+                <div class="same">
+                    <span>Name:</span>abc<br>
+                    <span>Value:</span>def<br>
+                    <span>Extra:</span>xyz
+                </div>
+                <div class="same">
+                    <span>Name:</span>abc<br>
+                    <span>Value:</span>def<br>
+                    <span>Extra:</span>xyz
+                </div>
+                <div class="same">
+                    <span>Name:</span>abc<br>
+                    <span>Value:</span>def<br>
+                    <span>Extra:</span>xyz
+                </div>
+                <div class="same">
+                    <span>Name:</span>abc<br>
+                    <span>Value:</span>def<br>
+                    <span>Extra:</span>xyz
+                </div>
+                <div class="same">
+                    <span>Name:</span>abc<br>
+                    <span>Value:</span>def<br>
+                    <span>Extra:</span>xyz
+                </div>
+                <div class="same">
+                    <span>Name:</span>abc<br>
+                    <span>Value:</span>def<br>
+                    <span>Extra:</span>xyz
+                </div>
+                <div class="same">
+                    <span>Name:</span>abc<br>
+                    <span>Value:</span>def<br>
+                    <span>Extra:</span>xyz
+                </div>
+                <div class="same">
+                    <span>Name:</span>abc<br>
+                    <span>Value:</span>def<br>
+                    <span>Extra:</span>xyz
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

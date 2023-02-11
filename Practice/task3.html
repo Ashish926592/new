@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<div>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .main {
+            height: auto;
+            width: 100%;
+            display: grid;
+        }
+
+        .dev1 {
+            display: grid;
+            border: 2px solid rgb(237, 238, 243);
+            height: auto;
+            grid-template-columns: auto auto;
+            background-color: azure;
+            justify-content: space-around;
+        }
+
+        .dev2 {
+            display: grid;
+            height: auto;
+            grid-template-columns: auto auto;
+            justify-content: space-around;
+            margin-left: 154px;
+
+        }
+
+        .dev3 {
+            display: grid;
+            margin-top: 5px;
+            height: auto;
+            grid-template-columns: repeat(9, 1fr);
+            justify-content: space-between;
+            width: auto;
+            margin-left: -263px;
+        }
+
+        .dev3 a {
+            padding: 5px;
+
+        }
+
+        .dev3 a:hover {
+            background-color: orange;
+            border-radius: 5px;
+
+        }
+
+        .dev4 {
+            display: grid;
+            height: auto;
+            grid-template-columns: auto auto;
+            justify-content: space-around;
+            /* margin-left: 154px; */
+
+        }
+
+        .dev5 {
+            display: grid;
+            height: auto;
+            grid-template-columns: auto auto;
+            justify-content: space-around;
+            background-color: rgb(30, 188, 232);
+            color: white;
+            margin-top: 25px;
+
+        }
+
+        .dev6 {
+            display: grid;
+            height: auto;
+            grid-template-columns: auto auto;
+            justify-content: space-around;
+            /* margin-left: 154px; */
+
+        }
+
+        .dev7 {
+            display: grid;
+            height: auto;
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
+
+        }
+
+        .dev7 img {
+            height: 200px;
+            width: 200px;
+        }
+
+        .dev8 {
+            display: grid;
+            height: auto;
+            grid-template-columns: auto;
+            justify-content: space-around;
+            margin-top: 10px;
+
+        }
+
+        .dev9 {
+            height: auto;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            margin-top: 10px;
+        }
+
+        .dev10 {
+            height: auto;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-columns: auto;
+            background-color: rgb(55, 52, 52);
+            color: rgb(134, 128, 128);
+            text-align: center;
+            border-bottom: 2px solid black;
+
+        }
+
+
+        .merge {
+            display: grid;
+            margin-top: 5px;
+            height: auto;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto auto;
+            justify-content: space-between;
+            width: auto;
+        }
+
+        .p3 {
+            display: grid;
+            grid-row: 1 / span 2;
+            margin-top: -7px;
+            margin-left: 10px;
+        }
+
+        input {
+            height: 30px;
+            margin-top: 15px;
+        }
+
+        .btn1 {
+            background-color: white;
+            color: rgb(30, 188, 232);
+            width: 130px;
+            height: 35px;
+            border-radius: 5px;
+            margin-top: 100px;
+            margin-right: 114px;
+        }
+
+        .same {
+            background-color: gray;
+            color: white;
+            padding-left: 85px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="dev1" style="background-color: rgb(212, 212, 212);">
+            <div class="p1">
+                <em class="fa fa-shopping-cart" style="font-size: 15px;">Shopping cart</em>
+            </div>
+            <div class="p2">
+                <em class="fa fa-user" style="font-size: 15px;">Sign In/Register</em>
+            </div>
+        </div>
+        <div class="merge">
+            <div class="p3">
+                <img src="three.png" alt="not available">
+                <p>Yard signs</p>
+            </div>
+            <div class="dev2">
+                <h1>512-219-8000</h1>
+            </div>
+            <div class="dev3">
+                <div><a>Banners</a></div>
+                <div><a>Accesories</a></div>
+                <div><a>Gallery</a></div>
+                <div><a>About</a></div>
+                <div><a>Price</a></div>
+                <div><a>Materials</a></div>
+                <div><a>FAQ</a></div>
+                <div><a>Custom Quote</a></div>
+            </div>
+        </div>
+        <div class="center" style="background-color: rgb(212, 212, 212);">
+            <div class="dev4">
+                <div style="align-items: left; color: rgb(97, 96, 96);">
+                    <h1>Big Headline</h1>
+                    <h3>Smaller subhead Here</h3>
+                    <p>And this is text copid pasted over and over and over and over and over and over and over and over
+                        and
+                        over and over and over</p>
+                    <button style="background-color: orange; color: white; width: 120px; height: 30px;">Get
+                        Started</button>
+                </div>
+                <div style="margin-left: 100px;">
+                    <form>
+                        <input type="text" placeholder="First Name:" required>
+                        <input type="text" placeholder="Last Name:" required><br>
+                        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                            placeholder="Email:" required>
+                        <input type="tel" name="contact" title="Error Message" id="contact" pattern="[1-9]{1}[0-9]{9}"
+                            maxlength="10" placeholder="Mobile Number" required><br>
+                        <textarea rows="4" cols="45" placeholder="Message" style="margin-top: 15px;">
+                        </textarea><br>
+                        <button
+                            style="background-color:  orange; color: white; width: 362px; height: 30px;border-radius: 5px;">send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="dev5">
+                <div style="margin-top: 20px;">
+                    <h3>This is where an Awesome Title Goes</h3>
+                    <p>And this is text copied pasted over and over and over and over and over and over and over and
+                        over
+                        and over and over and over and over and over and over and over and over and over and over and
+                        over
+                        and over and over and over and over and over and over and over and over and over and over and
+                        over
+                        and over and over and over and over and over and over and over and over and over and over and
+                        over
+                        and over and over and over and over and over and over and over and over and over and over and
+                        over
+                        and over.</p>
+                </div>
+                <div>
+                    <button class="btn1">Design it Now</button>
+
+                </div>
+
+
+            </div>
+            <div class="dev6">
+                <div style="margin-top:47px">
+                    <img src="two.jpg" alt="">
+                </div>
+                <div style="margin-left: 134px; color: rgb(97, 96, 96);">
+                    <h1>Watch This</h1>
+                    <h3>It's a video,yo!</h3>
+                    <p>And this is text copied pasted over and over and over and over and over and over and over and
+                        over
+                        and over and over and over and over and over and over and over and over and over and over and
+                        over
+                        and over and over and over.</p>
+                    <button style="background-color:  orange; color: white; width: 158px;
+                    height: 44px;">Learn More</button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="dev7">
+            <div>
+                <img src="1.png" alt="">
+                <h3>Project One</h3>
+                <p>Donec id elit non mi porta gravida at edget metus fusce. jsto sit amet risus eliam porta sem</p>
+            </div>
+
+            <div>
+                <img src="2.jpeg" alt="">
+                <h3>Project Two</h3>
+                <p>Donec id elit non mi porta gravida at edget metus fusce. jsto sit amet risus eliam porta sem</p>
+            </div>
+
+            <div>
+                <img src="4.jpg" alt="">
+                <h3>Project Three</h3>
+                <p>Donec id elit non mi porta gravida at edget metus fusce. jsto sit amet risus eliam porta sem</p>
+            </div>
+
+        </div>
+
+        <div class="dev8">
+            <button style="background-color:  orange; color: white; width: 158px;
+            height: 44px;">Learn More</button>
+
+        </div>
+
+
+        <div class="dev9">
+            <div class="same">
+                <h3>Help</h3>
+                <p>Contact Us</p>
+                <p>F.A.Q.</p>
+                <p>Sitemap</p>
+                <p>Pricing</p>
+                <p>Rendom Promo</p>
+                <br>
+                <p>Account</p>
+                <p>My Account</p>
+
+            </div>
+            <div class="same">
+                <h3>Products</h3>
+                <p>Yard Signs</p>
+                <p>Real Estate</p>
+                <p>Vinyl Banners</p>
+                <p>Car Magnatics</p>
+                <p>Banner stand</p>
+                <p>Accesories</p>
+                <p>Design Service</p>
+
+            </div>
+            <div class="same">
+                <h3>Company</h3>
+                <p>Overview</p>
+                <p>Press Room</p>
+                <p>Careers</p>
+                <p>Reviews</p>
+                <br>
+                <h3>Programs</h3>
+                <p>Affiate</p>
+            </div>
+            <div class="same">
+                <h3>Help</h3>
+                <p>Contact Us</p>
+                <p>F.A.Q.</p>
+                <p>Sitemap</p>
+                <p>Pricing</p>
+                <p>Rendom Promo</p>
+                <br>
+                <p>Account</p>
+                <p>My Account</p>
+
+            </div>
+            <div class="same">
+                <h3>Products</h3>
+                <p>Yard Signs</p>
+                <p>Real Estate</p>
+                <p>Vinyl Banners</p>
+                <p>Car Magnatics</p>
+                <p>Banner stand</p>
+                <p>Accesories</p>
+                <p>Design Service</p>
+
+            </div>
+            <div class="same">
+                <h3>Company</h3>
+                <p>Overview</p>
+                <p>Press Room</p>
+                <p>Careers</p>
+                <p>Reviews</p>
+                <br>
+                <h3>Programs</h3>
+                <p>Affiate</p>
+            </div>
+
+        </div>
+
+        <div class="dev10">
+            <p>Copyright &#169; 2016 SignDepotATX.com </p>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
