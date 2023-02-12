@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            border: 2px solid black;
+            height: auto;
+            width: auto;
+        }
+
+        .dev1 {
+            display: grid;
+            height: auto;
+            grid-template-columns: auto auto;
+            background-color: azure;
+            justify-content: space-around;
+        }
+        .nav {
+            display: grid;
+            height: auto;
+            grid-template-columns: repeat(8, 1fr);
+            justify-content: space-around;
+            width: auto;
+            margin-left: -25px;
+            margin-top: 42px;
+        }
+        iframe {
+            height: 525px;
+            width: 1000px;
+        }       
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="dev1">
+            <div class="logo" style="box-shadow: 10px -5px whitesmoke;">
+                <img src="four.png" alt="Not Available">
+            </div>
+            <div class="nav">
+                <div><a href="1.png" target="if2">HOME</a></div>
+                <div><a href="html1.html" target="if2">HTML</a></div>
+                <div><a href="css1.html" target="if2">CSS</a></div>
+                <div><a>Bootstrap</a></div>
+                <div><a>javaScript</a></div>
+                <div><a>JQuery</a></div>
+                <div><a>Minni Project</a></div>
+                <div style="margin-left: 28px;"><a>SQl</a></div>
+            </div>
+        </div>
+        <div>
+            <iframe src="2.jpeg" name="if2"></iframe>
+        </div>
+        
+
+    </div>
+</body>
+
+</html>
