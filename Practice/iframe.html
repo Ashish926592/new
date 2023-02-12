@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .one{
+            height: 575px;
+            margin-top: 0px;
+        } */
+        #form1{
+            height: 600px;
+            width: 500px;
+        }
+        #form1 label{
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="one">
+        <form id="form1">
+            <label>EmployeeName:<br>
+            <input type="text" placeholder="Enter Name" required><br>
+            </label>
+            <label>Employee Email:<br>
+                <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                placeholder="Enter Email" required>
+            </label><br>
+            <label>Contact number<br>
+                <input type="tel" name="contact" title="Error Message" id="contact" pattern="[1-9]{1}[0-9]{9}"
+                maxlength="10" placeholder="Enter mobile Number" required><br>
+            </label>
+
+            <label for="Date">Birth Date<br>
+         <input type="date" name="Date" id="Date" placeholder="dd/mm/yyyy" required>
+            </label>
+            <label>Age
+                <input type="text" placeholder="Employee Age">
+            </label><br>
+
+        <label for="gender">Gender<br>
+            <label for="gender" id="same" ><input type="radio" value="male" name="gender" required>male</label>
+            <label for="gender"><input type="radio" value="female" name="gender" required>female</label>
+        </label><br>
+        <button style="background-color:  orange; color: white; width: 100px;
+                height: 38px; border-radius: 5px;">Submit</button>
+      
+    </form>
+    </div>
+</body>
+</html>
