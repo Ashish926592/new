@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>student marks</title>
     <style>
-        tr,td{
-            text-align: center;
-        }
-        table{
-            border-collapse: collapse;
-        }
+        
         .main{
             margin-left: auto;
             margin-right: auto;
+            border-collapse: collapse;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <table border="2px" class="main">
+        <caption>Student report card</caption>
         <tr>
-            <th colspan="5">Student report card</th>
+            <th scope="col" colspan="5">Student report card</th>
         </tr>
         <tr>
             <td colspan="2">Name of student: </td>
@@ -36,14 +34,14 @@
             <td colspan="3">2021 </td>
         </tr>
         <tr>
-            <th colspan="5">Student Marks</th>
+            <th scope="col" colspan="5">Student Marks</th>
         </tr>
         <tr>
-            <th>Subject Name: </th>
-            <th>Operating System: </th>
-            <th>C Programming: </th>
-            <th>Compiler design: </th>
-            <th>Grade </th>
+            <td>Subject Name: </td>
+            <td>Operating System: </td>
+            <td>C Programming: </td>
+            <td>Compiler design: </td>
+            <td>Grade </td>
         </tr>
         <tr>
             <td>External Exam:(/100)</td>

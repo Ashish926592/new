@@ -36,14 +36,13 @@
         .child {
             width: 50%;
             float: left;
-            width: 50%;
             height: 100px;
             box-sizing: border-box;
             text-align: center;
 
         }
 
-        th,
+    
         td {
             border: 2px solid black;
             border-collapse: collapse;
@@ -72,7 +71,7 @@
         <div class="two">
 
             <div class="details">
-                <img src="one.avif">
+                <img src="one.avif" alt="Not available">
                 <h1>Ashish Parmar</h1>
                 <p style="color: #6011e0;">web developer</p>
 
@@ -81,11 +80,11 @@
                     with an
                     opportunity for personal and professional growth.</h4>
 
-                <p><i class="fa fa-phone">8000708493</i></p>
-                <a href="https://github.com/Ashish926592" style="color: rgb(170, 8, 8);"><i
-                        class="fa fa-github"></i>github</a><br><br>
-                <a href="https://linkedin.com/in/parmar-ashish-541810212" style="color: rgb(136, 12, 213);"><i
-                        class="fa fa-linkedin"></i>linkedin</a>
+                <p><em class="fa fa-phone">8000708493</em></p>
+                <a href="https://github.com/Ashish926592" style="color: rgb(170, 8, 8);"><em
+                        class="fa fa-github"></em>github</a><br><br>
+                <a href="https://linkedin.com/in/parmar-ashish-541810212" style="color: rgb(136, 12, 213);"><em
+                        class="fa fa-linkedin"></em>linkedin</a>
             </div>
             <div class="parent">
                 <div class="same1">
@@ -131,8 +130,9 @@
                 </div>
                 <div class="same2">
                     <div class="child">
-                        <table width="100%" cellspacing="16">
-                            <h2 class="div234">Software Skills</h1>
+                        <table>
+                            <caption>Table for Software skills</caption>
+                            <th colspan="3" class="div234">Software Skills</th>
                                 <tr>
                                     <td>Html</td>
                                     <td>Css</td>
@@ -173,12 +173,8 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
-
-    </div>
+  /div>
 </body>
-
 </html>
